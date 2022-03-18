@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background: gray;
+}
+
+main {
+    height: 346px;
+    width: 75%;
+    background: #000 url(code.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dark-box {
+    height: 346px;
+    background: #000;
+    opacity: 0.7;
+}
+
+.main-h2 {
+    margin: 0;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+.main-p {
+    margin: 0;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 54px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+.main-container {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 75%;
+}
+
+.nav {
+    position: absolute;
+}
+
+.main-ico {
+    position: absolute;
+}
+
+.info {
+    width: 75%;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #2C9F76;
+}
+
+.small-acute-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 298px;
+    left: 50%;
+    margin-left: -270px;
+    width: 540px;
+    height: 100px;
+    background-color: #2E8666;
+}
+
+.small-acute-block-h1 {
+    margin: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+
+    color: #CFFBEB;
+}
+
+.acute-block {
+    width: 440px;
+    left: 50%;
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #2E8666;
+    margin-bottom: 50px;
+}
+
+.acute-block-text {
+    margin: 0;
+    font-family: Open Sans;
+    font-size: 20px;
+
+    color: #CFFBEB;
+}
+
+.content-container {
+    padding-bottom: 50px;
+}
+
+.small-acute-block-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1516px;
+    left: 50%;
+    margin-left: -270px;
+    width: 540px;
+    height: 100px;
+    background-color: #63789F;
+}
+@media screen and (max-width: 720px) {
+    .materials {
+        width: 100%;
+        padding-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-color: #8B9FC5;
+    } 
+}
+@media screen and (min-width: 720px){
+    .materials {
+        width: 75%;
+        padding-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-color: #8B9FC5;
+    }  
+}
