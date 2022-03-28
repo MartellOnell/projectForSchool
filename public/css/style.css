@@ -7,7 +7,7 @@ body {
     main {
         height: 346px;
         width: 75%;
-        background: #000 url(code.jpg);
+        background: #000 url(/png/code.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
         background-size: cover;
@@ -21,7 +21,7 @@ body {
     main {
         height: 346px;
         width: 100%;
-        background: #000 url(code.jpg);
+        background: #000 url(/png/code.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
         background-size: cover;

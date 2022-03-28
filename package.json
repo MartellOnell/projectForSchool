@@ -1,0 +1,23 @@
+{
+  "name": "projectforschool",
+  "version": "1.0.0",
+  "description": "project school",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartellOnell/projectForSchool.git"
+  },
+  "author": "Tartarus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartellOnell/projectForSchool/issues"
+  },
+  "homepage": "https://github.com/MartellOnell/projectForSchool#readme",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "nunjucks": "^3.2.3"
+  }
+}
