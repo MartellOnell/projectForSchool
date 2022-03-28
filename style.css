@@ -39,7 +39,7 @@ body {
 
 .main-h2 {
     margin: 0;
-    font-family: Oswald;
+    font-family: 'Space Mono', monospace;
     font-style: normal;
     font-weight: 550;
     font-size: 32px;
@@ -53,7 +53,7 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     margin: 0;
-    font-family: Oswald;
+    font-family: 'Space Mono', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -116,7 +116,7 @@ body {
 
 .small-acute-block-h1 {
     margin: 0;
-    font-family: Montserrat;
+    font-family: 'Space Mono', monospace;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -167,11 +167,16 @@ body {
 
 .code-text {
     font-size: 16px;
+    font-family: 'Space Mono', monospace;
+}
+
+.array {
+    font-family: 'Space Mono', monospace;
 }
 
 .acute-block-text {
     margin: 0;
-    font-family: Open Sans;
+    font-family: 'Space Mono', monospace;
     font-size: 20px;
 
     color: #CFFBEB;
@@ -196,7 +201,7 @@ body {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 1752px;
+    top: 1870px;
     left: 50%;
     margin-left: -270px;
     width: 540px;
@@ -237,4 +242,53 @@ body {
         display: block;
         background-color: #8B9FC5;
     }  
+}
+
+@media screen and (max-width: 720px) {
+    .workspace {
+        width: 100%;
+        padding-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-color: #9870c4;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .workspace {
+        width: 75%;
+        padding-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-color: #9870c4;
+    }
+}
+
+.small-acute-block-w {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 3045px;
+    left: 50%;
+    margin-left: -270px;
+    width: 540px;
+    height: 100px;
+    background-color: #8260a8;
+}
+
+.acute-block-w {
+    width: 440px;
+    left: 50%;
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #8260a8;
+    margin-bottom: 50px;
 }
